@@ -41,6 +41,7 @@ section {
     font-size: 15px;
     width: 50%;
     height: 100%;
+    margin: 5px
     line-height: 1.6;
     border-radius: 20px;
     background: #FF6347;
@@ -180,7 +181,7 @@ textarea {
   }
 
   /* Normal */
-  @media(min-width: 769px) and (max-width: 1200px) {
+  @media(min-width: 700px) and (max-width: 1000px) {
     body {
         background: url('BenedictSam\ 20181013_194921.jpg');
     }
