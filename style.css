@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url('IMG/BenedictSam\ 20181013_194921.jpg');
+    /* background: darkkhaki; */
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+}
+
+a {
+    text-decoration: none;
+    padding: 1rem;
+    color: black;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    margin: 10px 0;
+}
+
+section {
+    line-height: 1;
+    font-size: 1rem;
+}
+
+#Sidebar  {
+    display: flex;
+    float: right;
+    flex-direction: row;
+    flex: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 50%;
+    height: 100%;
+    line-height: 1.6;
+    border-radius: 20px;
+    background: #FF6347;
+}
+
+#Sidebar ul li {
+    text-decoration: none;
+    text-align: left;
+    line-height: 1.2;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.card {
+    border: 1px solid black;  
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.picture {
+    padding: 1rem;
+    margin: 5px left;
+    max-width: 400px;
+    display: flex; 
+    flex-direction: row;
+}
+
+/* Form Styling */
+  #container {
+    padding: 1rem;
+    margin: 5px right;
+    max-width: 400px;
+    display: flex; 
+    flex-direction: row;
+}
+
+.form-wrap {
+    background: #FF6347;
+    border-radius: 10px;
+    height: 120%;
+    width: 100%;
+    padding: 1rem;
+    color: black;
+    flex-direction: column;
+    display: inline-block;
+    margin: auto;
+}
+
+.form-wrap h2
+.form-wrap p {
+    text-align: center;
+}
+
+label {
+   margin-top: 5px;
+   margin-bottom: .25rem;
+   line-height: 1.4;
+   display: block;
+   font-size: 20px;
+}
+
+ input {
+    border: 0 solid #e2e8f0;
+    display: block;
+    font-size: 100%;
+    color: black;
+    background-color: peachpuff;
+    padding: 1rem;
+    width: 90%;
+    margin-bottom: .75rem;
+    border-radius: 10px;
+}
+
+textarea {
+    width: 90%;
+    height: 100px;
+    padding: 1em;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: peachpuff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    background-color: black; 
+    display: block;
+    width: 90%;
+    color: #fff;
+    padding-top: 1.25rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 1rem;
+    border-radius: 10px;
+ }
+
+ .form-wrap .btn:hover {
+    background-color: seagreen;
+ }
+
+ .clr {
+     clear:both;
+ }
+
+/* Footer */
+#footer {
+    background: saddlebrown;;
+    color: black;
+    text-align: center;
+    display: block;
+    padding: 1rem;
+    padding-top: 10px;
+    overflow: auto;
+}
+
+/* Media Query */
+
+ /* Smartphones */
+ @media(max-width: 500px) {
+    body {
+        background: url('IMG/BenedictSam\ 20181013_194921.jpg');
+    }
+
+    #smartphone h1 {
+        display: block;
+    }
+   }
+   /* Tablet */
+   @media(min-width: 501px) and (max-width: 768px) {
+    body {
+        background: url('IMG/BenedictSam\ 20181013_194921.jpg');
+    }
+
+    #tablet h1 {
+        display: block;
+    } 
+  }
+
+  /* Normal */
+  @media(min-width: 769px) and (max-width: 1200px) {
+    body {
+        background: url('IMG/BenedictSam\ 20181013_194921.jpg');
+    }
+
+    #normal h1 {
+        display: block;
+    } 
+  }
+
+  /* Widescreen */
+  @media(min-width: 1201px) {
+    body {
+        background: url('IMG/BenedictSam\ 20181013_194921.jpg');
+    }
+
+    #widescreen h1 {
+        display: block;
+    } 
+  }
+
+  /* Landscape */
+  @media(max-height: 500px) {
+    body {
+        background: url('IMG/BenedictSam\ 20181013_194921.jpg');
+    }
+
+    #landscape h1 {
+        display: block;
+  } 
+  }
