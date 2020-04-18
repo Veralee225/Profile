@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url('BenedictSam\ 20181013_194921.jpg');
+    background-image: url('BenedictSam\ 20181013_194921.jpg') no repeat;
     /* background: darkkhaki; */
     color: black;
     font-family: Arial, Helvetica, sans-serif;
