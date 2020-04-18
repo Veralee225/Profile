@@ -161,7 +161,7 @@ textarea {
  /* Smartphones */
  @media(max-width: 500px) {
     body {
-        background: url('IMG/BenedictSam\ 20181013_194921.jpg');
+        background: url('BenedictSam\ 20181013_194921.jpg');
     }
 
     #smartphone h1 {
@@ -171,7 +171,7 @@ textarea {
    /* Tablet */
    @media(min-width: 501px) and (max-width: 768px) {
     body {
-        background: url('IMG/BenedictSam\ 20181013_194921.jpg');
+        background: url('BenedictSam\ 20181013_194921.jpg');
     }
 
     #tablet h1 {
@@ -182,7 +182,7 @@ textarea {
   /* Normal */
   @media(min-width: 769px) and (max-width: 1200px) {
     body {
-        background: url('IMG/BenedictSam\ 20181013_194921.jpg');
+        background: url('BenedictSam\ 20181013_194921.jpg');
     }
 
     #normal h1 {
@@ -193,7 +193,7 @@ textarea {
   /* Widescreen */
   @media(min-width: 1201px) {
     body {
-        background: url('IMG/BenedictSam\ 20181013_194921.jpg');
+        background: url('BenedictSam\ 20181013_194921.jpg');
     }
 
     #widescreen h1 {
@@ -204,7 +204,7 @@ textarea {
   /* Landscape */
   @media(max-height: 500px) {
     body {
-        background: url('IMG/BenedictSam\ 20181013_194921.jpg');
+        background: url('BenedictSam\ 20181013_194921.jpg');
     }
 
     #landscape h1 {
